@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="TextView" fontPath="fonts/FiraSans-Regular.ttf">
+        <item name="android:filterTouchesWhenObscured">true</item>
+    </style>
+
+    <style name="TextView.H1">
+        <item name="android:textSize">@dimen/textsize_H1</item>
+    </style>
+
+    <style name="TextView.H2">
+        <item name="android:textSize">@dimen/textsize_H2</item>
+    </style>
+
+    <style name="TextView.H1.Black" parent="TextView.H2">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <color name="colorBlack">#000</color>
+</resources>
